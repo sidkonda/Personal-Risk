@@ -5,5 +5,5 @@ workflow "On pull request merge, delete the branch" {
 
 action "branch cleanup" {
   uses = "jessfraz/branch-cleanup-action@master"
-  secrets = ["my_secret"]
+  secrets = ["my_new_secret"]
 }
