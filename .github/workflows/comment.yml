@@ -16,4 +16,4 @@ jobs:
         stale-issue-message: 'This is stale'
         stale-issue-label: 'stale'
         days-before-stale: 1
-        days-before-close: 2
+        days-before-close: 1
