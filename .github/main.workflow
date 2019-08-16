@@ -1,9 +1,9 @@
 workflow "On pull request merge, delete the branch" {
-  on = "pull_request"
-  resolves = ["branch cleanup"]
+  resolves = ["cycle-weekly-meeting"]
+  on = "schedule(0 20 * * 5)"
 }
 
-action "branch cleanup" {
-  uses = "jessfraz/branch-cleanup-action@master"
+action "cycle-weekly-meeting" {
+  uses = "./weekly-meeting"
   secrets = ["GITHUB_TOKEN"]
 }
