@@ -1,4 +1,4 @@
-workflow "On pull request merge, delete the branch" {
+workflow "Risk Standup Weekly Action" {
   resolves = ["cycle-weekly-meeting"]
   on = "schedule(0 20 * * 5)"
 }
