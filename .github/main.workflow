@@ -1,6 +1,6 @@
 workflow "Risk Standup Weekly Action" {
   resolves = ["cycle-weekly-meeting"]
-  on = "schedule(0 20 * * 5)"
+  on = "schedule(30 22 * * 1)"
 }
 
 action "cycle-weekly-meeting" {
