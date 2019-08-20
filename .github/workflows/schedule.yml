@@ -1,6 +1,6 @@
 on:
   schedules:
-  - cron: 30 22 * * 1
+  - cron: 30 19 * * 2
 name: Risk Standup Weekly Action
 jobs:
   cycle-weekly-meeting:
