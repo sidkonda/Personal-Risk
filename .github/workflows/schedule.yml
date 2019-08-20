@@ -1,0 +1,13 @@
+on:
+  schedules:
+  - cron: 30 22 * * 1
+name: Risk Standup Weekly Action
+jobs:
+  cycle-weekly-meeting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: cycle-weekly-meeting
+      uses: ./weekly-meeting
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
