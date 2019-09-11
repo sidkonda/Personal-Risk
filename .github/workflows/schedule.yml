@@ -1,5 +1,5 @@
 on:
-  schedules:
+  schedule:
   - cron: 00 15 * * 1-5
 name: Risk Standup Weekly Action
 jobs:
