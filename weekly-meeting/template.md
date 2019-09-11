@@ -12,7 +12,7 @@
 
 ### Team Topics
 - **First Responder:** :construction:  - [Q1 Issue](https://github.com/github/security-grc-risk/issues/155)
-- **ONGOING:** Performance Review Prep (❗️To be done in advance of reflection meetings)
+- **ONGOING:** Performance Review Prep (To be done in advance of reflection meetings)
   - Progress on Radford self-assessment
     - [Engineering Link](https://githubber.com/article/technology/structure/engineering-levels)
   - Link back to original ask from May 30 - https://github.com/github/security-grc-risk/issues/20#issuecomment-497398194
