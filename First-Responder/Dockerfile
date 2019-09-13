@@ -9,5 +9,5 @@ RUN bundle install
 
 COPY . .
 
-CMD ["ruby", "./weekly-meeting/run.rb"]
+CMD ["ruby", "./First-Responder/run.rb"]
 #CMD ["ls"]
