@@ -1,0 +1,13 @@
+on:
+  schedule:
+  - cron: 30 17 * * 1-5
+name: First Responder Weekly Action
+jobs:
+  cycle-weekly-meeting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: cycle-first-responder
+      uses: ./First-Responder
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
