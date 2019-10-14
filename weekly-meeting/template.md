@@ -21,20 +21,11 @@
 ### Team Priorities for Week - Update during round table
 Project | Priority | Point | Issue
 --|--|--|--
-:x: | :x: | @ktfeucht | :x:
-:x: | :x: | @svtruong | :x:
-:x: | :x: | @ladyray7310 | :x:
-:x: | :x: | @ffink | :x: 
-:x: | :x: | @sidkonda  | :x:
+
 
 ### Friday Topics
 -  1st responder recap - https://github.com/github/security-grc-risk/issues/155#issuecomment-518397856
 - :construction:
 
 ### Future
-Frank knowledge share on ZenGRC and LDAP
-SLA Metrics on Review Issues: Team to look at results and discuss plan for moving forward.
-Risk Services CMM - https://github.com/github/security-grc/issues/677
-@svtruong - Update readme - https://github.com/github/security-grc-risk/pull/95
-@svtruong - https://github.com/github/Data-Protection-Program/issues/419
-@ktfeucht - How We Work PR - https://github.com/github/security-grc-risk/pull/18
+
